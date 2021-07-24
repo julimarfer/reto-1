@@ -7,8 +7,8 @@ public class RenProyec
     private int tiempo;
     private double capital;
     private double interes;
-    private int interesCompuesto;
-    private int interesSimple;
+    //private int interesCompuesto;
+    //private int interesSimple;
 
     public RenProyec()
     {
@@ -53,9 +53,9 @@ public class RenProyec
         }
     public String analisisInversion()
     {
-        this.tiempo=0;
-        this.capital=0.0;
-        this.interes=0.0;
+       //this.tiempo=0;
+        //this.capital=0.0;
+        //this.interes=0.0; 
         double diferencia= calcularInteresCompuesto()-calcularInteresSimple();
         if (diferencia>0)
         { 
